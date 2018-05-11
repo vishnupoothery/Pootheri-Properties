@@ -3,35 +3,124 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
-        <title>Starter Template - Materialize</title>
+        <title>Pootheri Properties</title>
 
         <!-- CSS  -->
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
         <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-        <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css?family=Poiret+One|Abel|Spectral" rel="stylesheet"> 
     </head>
     <body>
-        <nav class="light-blue lighten-1" role="navigation">
-            <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo" style="font-family: 'Poiret One', cursive">PootheriProperties</a>
-                <ul class="right hide-on-med-and-down">
-                    <li><a href="#">Navbar Link</a></li>
-                </ul>
 
-                <ul id="nav-mobile" class="sidenav">
-                    <li><a href="#">Navbar Link</a></li>
-                </ul>
-                <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-            </div>
-        </nav>
+        <!-- Nav bar begins -->
+
+        <div class="navbar-fixed">
+            <nav class="grey darken-3" role="navigation">
+                <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo hide-on-med-and-up" style="font-family: 'Poiret One', cursive">PootheriProperties</a>
+                    <a id="logo-container" href="#" class="brand-logo hide-on-small-only" style="font-family: 'Poiret One', cursive">Pootheri Properties</a>
+                    <ul class="right hide-on-med-and-down" style="font-family: 'Abel', cursive">
+                        <li><a href="#" >Home</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Projects</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+
+
+                    <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                </div>
+            </nav>
+        </div>
+        <ul id="nav-mobile" class="sidenav" style="font-family: 'Abel', cursive">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
+
+        <!-- Nav bar ends -->
+
+        <div class="slider">
+            <ul class="slides">
+                <li>
+                    <img class="responsive-img" src="img/slider/1.jpg"> 
+                    <div class="caption center-align">
+                        <h3>This is our big Tagline!</h3>
+                        <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>  
+                    </div>
+                </li>
+                <li>
+                    <img class="responsive-img" src=img/slider/2.jpg> 
+                    <div class="caption center-align">
+                        <h3>This is our big Tagline!</h3>
+                        <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>  
+                    </div>
+                </li>
+                <li>
+                    <img class="responsive-img" src="img/slider/3.jpg"> 
+                    <div class="caption center-align">
+                        <h3>This is our big Tagline!</h3>
+                        <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>    
+                    </div>
+                </li>
+                <li>
+                    <img class="responsive-img" src="img/slider/4.jpg"> 
+                    <div class="caption center-align">
+                        <h3>This is our big Tagline!</h3>
+                        <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>    
+                    </div>
+                </li>
+            </ul>
+        </div>
+
         <div class="section no-pad-bot" id="index-banner">
+            <div class="container" style="font-family: 'Spectral'">
+                <h3 class="center-align">ABOUT US</h3><br>
+                <p class="center-align">
+                    Pootheri Properties is a premium builders &amp; developers based in Calicut delivering a world-class living experience in tune with nature. We offer a wide range of choices to fit every lifestyle and our projects breathe perfection. Trust and goodwill are the strong pillars that support our edifices. This makes us the top builders in the city. Our elegant and intelligent designs speak for themselves, offering a seamless word of unparalleled luxury. 
+                </p>
+                <div class="center-align"><button class="waves-effect waves-light btn">more</button></div>
+                <br><br>
+                <div>
+                    <h3 class="center-align">PROJECTS</h3>
+                    <div class="row">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="blue darken-1 white-text">
+            <br>
             <div class="container">
-
-
+                <h3 class="center-align" style="font-family: 'Spectral'">QUICK CONTACT</h3>
+                <p class="center-align">Send us a message by using the form below,<br>
+                    and our team will get back to you as soon as possible.</p>
+                <div class="row">
+                    <div class="input-field col s12 m4 l4">
+                        <input placeholder="Name" id="first_name" type="text" class="validate">
+                        <label for="first_name">Name</label>
+                    </div>
+                    <div class="input-field col s12 m4 l4">
+                        <input placeholder="Email" id="first_name" type="text" class="validate">
+                        <label for="first_name">Email</label>
+                    </div>
+                    <div class="input-field col s12 m4 l4">
+                        <input placeholder="Number" id="first_name" type="text" class="validate">
+                        <label for="first_name">Number</label>
+                    </div>
+                    <div class="input-field col s12">
+                        <textarea placeholder="Message" id="textarea1" class="materialize-textarea"></textarea>
+                        <label for="textarea1">Message</label>
+                    </div>
+                </div>
+                <div class="center-align"><button class="waves-effect waves-light btn">SUBMIT</button></div>
+                <br>
             </div>
         </div>
 
-
+        <br><br>
         <footer class="page-footer orange">
             <div class="container">
                 <div class="row">
@@ -42,12 +131,11 @@
 
                     </div>
                     <div class="col l3 s12">
-                        <h5 class="white-text">Settings</h5>
                         <ul>
-                            <li><a class="white-text" href="#!">Link 1</a></li>
-                            <li><a class="white-text" href="#!">Link 2</a></li>
-                            <li><a class="white-text" href="#!">Link 3</a></li>
-                            <li><a class="white-text" href="#!">Link 4</a></li>
+                            <li><a class="white-text" href="#!"><i class="material-icons tiny">library_books</i> Blog</a></li>
+                            <li><a class="white-text" href="#!"><i class="material-icons tiny">people</i> Contact US</a></li>
+                            <li><a class="white-text" href="#!"><i class="material-icons tiny">map</i> Map</a></li>
+                            <li><a class="white-text" href="#!"><i class="material-icons tiny">photo_library</i> Gallery</a></li>
                         </ul>
                     </div>
                     <div class="col l3 s12">
@@ -73,6 +161,18 @@
         <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
         <script src="js/materialize.js"></script>
         <script src="js/init.js"></script>
+
+        <script>
+            $(document).ready(function(){
+                $('.slider').slider();
+            });
+
+            $('.carousel.carousel-slider').carousel({
+                fullWidth: true,
+                indicators: true
+            });
+
+        </script>
 
     </body>
 </html>
