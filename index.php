@@ -3,6 +3,10 @@
     <head>
         <link rel="manifest" href="manifest.json">
 
+        <meta name="description" content="Pootheri properties website">
+        <meta name="keywords" content="pootheri,properties,vishnu poothery,calicut,kozhikode">
+        <meta name="author" content="Vishnu Poothery">
+        <meta name="robots" content="index,follow">
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
         <title>Pootheri Properties</title>
@@ -29,6 +33,7 @@
                         <li><a href="#">Projects</a></li>
                         <li><a href="#">Blog</a></li>
                         <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="login.php">Login</a></li>
                     </ul>
 
 
@@ -42,6 +47,7 @@
             <li><a href="#">Projects</a></li>
             <li><a href="#">Blog</a></li>
             <li><a href="#">Contact Us</a></li>
+            <li><a href="login.php">Login</a></li>
         </ul>
 
         <!-- Nav bar ends -->
@@ -271,7 +277,7 @@
                     <div class="col l3 s12">
                         <h5 class="white-text">Address</h5>
                         <p>
-                        
+
                         </p>
                     </div>
                 </div>
