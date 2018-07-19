@@ -1,17 +1,4 @@
-<?php
-
-session_start();
-
-if( isset($_SESSION['admin_logedin']) ){
-    header("Location: MainPage/index.php");
-}
-else {
-    header("Location: login.php");
-}
-
-?>
-
-!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -34,6 +21,11 @@ else {
 
 <body>
     
+    <form action="Scripts/login.php" method="post">
+        <input type="text" name="username">
+        <input type="password" name="password">
+        <input type="submit">
+    </form>
 
 
     <!-- Bootstrap core JavaScript -->
@@ -42,3 +34,4 @@ else {
 </body>
 
 </html>
+
